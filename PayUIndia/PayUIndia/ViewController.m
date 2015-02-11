@@ -2,11 +2,10 @@
 //  ViewController.m
 //  PayUIndia
 //
-//  Created by spice on 11/02/15.
-//  Copyright (c) 2015 NOONE. All rights reserved.
-//
+
 
 #import "ViewController.h"
+#import "PayUViewController.h"
 
 @interface ViewController ()
 
@@ -20,6 +19,16 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+-(IBAction)openPayU:(id)sender
+{
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main_iPhone"
+                                                             bundle: nil];
+    PayUViewController *vc;// =[[UIViewController alloc]init];
+    
+    vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"PayUViewController"];
+    [self presentViewController:vc animated:NO completion:nil];
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

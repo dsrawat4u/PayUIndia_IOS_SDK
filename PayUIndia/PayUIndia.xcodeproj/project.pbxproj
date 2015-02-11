@@ -21,6 +21,9 @@
 		92C045BC1A8B787C00CFFD8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C0459E1A8B787B00CFFD8C /* UIKit.framework */; };
 		92C045C41A8B787C00CFFD8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92C045C21A8B787C00CFFD8C /* InfoPlist.strings */; };
 		92C045C61A8B787C00CFFD8C /* PayUIndiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C045C51A8B787C00CFFD8C /* PayUIndiaTests.m */; };
+		92C045D11A8B793900CFFD8C /* headerRest.png in Resources */ = {isa = PBXBuildFile; fileRef = 92C045CF1A8B793900CFFD8C /* headerRest.png */; };
+		92C045D21A8B793900CFFD8C /* back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92C045D01A8B793900CFFD8C /* back_icon.png */; };
+		92C045D51A8B795E00CFFD8C /* PayUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C045D41A8B795E00CFFD8C /* PayUViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		92C045C11A8B787C00CFFD8C /* PayUIndiaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PayUIndiaTests-Info.plist"; sourceTree = "<group>"; };
 		92C045C31A8B787C00CFFD8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92C045C51A8B787C00CFFD8C /* PayUIndiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayUIndiaTests.m; sourceTree = "<group>"; };
+		92C045CF1A8B793900CFFD8C /* headerRest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headerRest.png; sourceTree = "<group>"; };
+		92C045D01A8B793900CFFD8C /* back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_icon.png; sourceTree = "<group>"; };
+		92C045D31A8B795E00CFFD8C /* PayUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUViewController.h; sourceTree = "<group>"; };
+		92C045D41A8B795E00CFFD8C /* PayUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayUViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +124,8 @@
 				92C045AC1A8B787B00CFFD8C /* Main.storyboard */,
 				92C045AF1A8B787B00CFFD8C /* ViewController.h */,
 				92C045B01A8B787B00CFFD8C /* ViewController.m */,
+				92C045D31A8B795E00CFFD8C /* PayUViewController.h */,
+				92C045D41A8B795E00CFFD8C /* PayUViewController.m */,
 				92C045B21A8B787B00CFFD8C /* Images.xcassets */,
 				92C045A11A8B787B00CFFD8C /* Supporting Files */,
 			);
@@ -126,6 +135,8 @@
 		92C045A11A8B787B00CFFD8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92C045CF1A8B793900CFFD8C /* headerRest.png */,
+				92C045D01A8B793900CFFD8C /* back_icon.png */,
 				92C045A21A8B787B00CFFD8C /* PayUIndia-Info.plist */,
 				92C045A31A8B787B00CFFD8C /* InfoPlist.strings */,
 				92C045A61A8B787B00CFFD8C /* main.m */,
@@ -228,9 +239,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C045D11A8B793900CFFD8C /* headerRest.png in Resources */,
 				92C045B31A8B787B00CFFD8C /* Images.xcassets in Resources */,
 				92C045A51A8B787B00CFFD8C /* InfoPlist.strings in Resources */,
 				92C045AE1A8B787B00CFFD8C /* Main.storyboard in Resources */,
+				92C045D21A8B793900CFFD8C /* back_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92C045B11A8B787B00CFFD8C /* ViewController.m in Sources */,
+				92C045D51A8B795E00CFFD8C /* PayUViewController.m in Sources */,
 				92C045AB1A8B787B00CFFD8C /* AppDelegate.m in Sources */,
 				92C045A71A8B787B00CFFD8C /* main.m in Sources */,
 			);
